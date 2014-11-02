@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html>
+<head>   
+    <script language="Javascript">
+
+
+	function DoMouse(imgsrc,imgchange, mytext) 
+	{
+		if (navigator.appVersion.substring(0,1) >= 3) 
+		{
+			//document.images[imgsrc].src=eval(imgchange + ".src");
+			document.images[imgsrc].src=imgchange; 
+			window.status = mytext; 
+		}
+	}
+    </script>
+</head>
+
+<!--bgcolor="#dce7ef"-->
+<body background="images/side.JPG">
+
+<br />
+<a href="home.html" target="content"
+	onMouseOver = "DoMouse('home', 'images/button-home2.JPG', 'Home'); return true;" 
+	onMouseOut  = "DoMouse('home', 'images/button-home.JPG', ''); return true" 
+	onMouseDown = "DoMouse('home', 'images/button-home2.JPG', 'Home'); return true" 
+	onMouseUp   = "DoMouse('home', 'images/button-home.JPG', ''); return true" />
+	<img src="images/button-home.JPG" id="home" border="0" /></a>
+<a href="constitution.html" target="content"
+	onMouseOver = "DoMouse('constitution', 'images/button-constitution2.JPG', 'Constitution'); return true;" 
+	onMouseOut  = "DoMouse('constitution', 'images/button-constitution.JPG', ''); return true" 
+	onMouseDown = "DoMouse('constitution', 'images/button-constitution2.JPG', 'Constitution'); return true" 
+	onMouseUp   = "DoMouse('constitution', 'images/button-constitution.JPG', ''); return true" />
+	<img src="images/button-constitution.JPG" id="constitution" border="0" /></a>
+<a href="board.html" target="content"
+	onMouseOver = "DoMouse('board', 'images/button-board2.JPG', 'Board'); return true;" 
+	onMouseOut  = "DoMouse('board', 'images/button-board.JPG', ''); return true" 
+	onMouseDown = "DoMouse('board', 'images/button-board2.JPG', 'Board'); return true" 
+	onMouseUp   = "DoMouse('board', 'images/button-board.JPG', ''); return true" />
+	<img src="images/button-board.JPG" id="board" border="0" /></a>
+<a href="sponsors.html" target="content"
+	onMouseOver = "DoMouse('sponsors', 'images/button-sponsors2.JPG', 'Sponsors'); return true;" 
+	onMouseOut  = "DoMouse('sponsors', 'images/button-sponsors.JPG', ''); return true" 
+	onMouseDown = "DoMouse('sponsors', 'images/button-sponsors2.JPG', 'Sponsors'); return true" 
+	onMouseUp   = "DoMouse('sponsors', 'images/button-sponsors.JPG', ''); return true" />
+	<img src="images/button-sponsors.JPG" id="sponsors" border="0" /></a>
+<a href="links.html" target="content"
+	onMouseOver = "DoMouse('links', 'images/button-links2.JPG', 'Links'); return true;" 
+	onMouseOut  = "DoMouse('links', 'images/button-links.JPG', ''); return true" 
+	onMouseDown = "DoMouse('links', 'images/button-links2.JPG', 'Links'); return true" 
+	onMouseUp   = "DoMouse('links', 'images/button-links.JPG', ''); return true" />
+	<img src="images/button-links.JPG" id="links" border="0" /></a>
+<a href="tshirts.html" target="content"
+	onMouseOver = "DoMouse('tshirts', 'images/button-tshirts2.JPG', 'T-Shirts'); return true;" 
+	onMouseOut  = "DoMouse('tshirts', 'images/button-tshirts.JPG', ''); return true" 
+	onMouseDown = "DoMouse('tshirts', 'images/button-tshirts2.JPG', 'T-Shirts'); return true" 
+	onMouseUp   = "DoMouse('tshirts', 'images/button-tshirts.JPG', ''); return true" />
+	<img src="images/button-tshirts.JPG" id="tshirts" border="0" /></a>
+<a href="contact_us.html" target="content"
+	onMouseOver = "DoMouse('contact', 'images/button-contact2.JPG', 'Contact Us'); return true;" 
+	onMouseOut  = "DoMouse('contact', 'images/button-contact.JPG', ''); return true" 
+	onMouseDown = "DoMouse('contact', 'images/button-contact2.JPG', 'Contact Us'); return true" 
+	onMouseUp   = "DoMouse('contact', 'images/button-contact.JPG', ''); return true" />
+	<img src="images/button-contact.JPG" id="contact" border="0" /></a>
+
+
+<!--img src="images/Side.JPG" width="190" height="600" alt="Wrengland navigation menu" usemap="#map1" /-->
+
+<map name="map1">
+    <area shape="rect" coords="80,20,180,40" href="main.html" alt="Home" target="content" />
+    <area shape="rect" coords="80,40,180,60" href="aboutme.html" alt="About Me" target="content" />
+    <area shape="rect" coords="80,60,180,82" href="art.html" alt="Portfolio" target="content" />
+    <area shape="rect" coords="80,82,180,103" href="school.html" alt="School" target="content" />
+    <area shape="rect" coords="80,103,180,126" href="album.html" alt="Gallery" target="content" />
+    <area shape="rect" coords="80,126,180,146" href="features.html" alt="Features" target="content" />
+    <area shape="rect" coords="80,146,180,167" href="feedback.html" alt="Feedback" target="content" />
+    <area shape="rect" coords="80,167,180,190" href="sitemap.html" alt="Site Map" target="content" />
+</map>
+
+</body>
+
+</html>

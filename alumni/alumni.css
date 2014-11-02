@@ -1,0 +1,119 @@
+
+body {  font-family: Calibri, Verdana, Arial, Tahoma, Helvetica, Sans-serif;
+	font-size: 1em; 
+	background-color: #ffffff;
+	background-image:url('fireworks.JPG');
+	background-attachment: fixed;
+	}
+
+a:link {color:#8badc6; text-decoration:underline; font-weight:bold}
+a:visited {color:#8badc6; text-decoration:underline; font-weight:bold}
+a:hover {color:#addfe8; text-decoration:underline; font-weight:bold}
+
+a.profilelink:link {color:#ffffff; text-decoration:none;}
+a.profilelink:visited {color:#ffffff; text-decoration:none;}
+a.profilelink:hover {color:#dddddd; text-decoration:underline;}
+
+a.contrast:link {color:#000000; text-decoration:underline; font-weight: none}
+a.contrast:visited {color:#000000; text-decoration:underline; font-weight: none}
+a.contrast:hover {color:#ffffff; text-decoration:underline; font-weight: none}
+
+div { }
+
+#pageheader { 
+	align: center;
+	margin: 4px;
+	background-color: #ffffff;
+	color: #000000;
+	font-size: 2em;
+	padding-bottom: .2em;
+	}
+
+#pagemainstripe {
+	align: center;
+	background-color: #8badc6;
+	color: #000000;
+	font-size: 1.2em;
+	padding: 1em 2em 1em 2em;
+	margin-left: -10px;
+	margin-right: -10px;
+	}
+
+#pagefootstripe {
+	align: center;
+	background-color: #8badc6;
+	color: #000000;
+	font-size: .8em;
+	padding: 1em 2em 1em 2em;
+	margin-left: -10px;
+	margin-right: -10px;
+	margin-bottom: 20px;
+	margin-top: 50px;
+	}
+
+#boxlinks {
+	margin-left: 5em;
+	}
+
+.box {
+	margin-top: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
+	padding: 1em;
+	align: center;
+	border: 3px solid #8badc6;
+	background-color: #ffffff;
+	color: #000000;
+	font-size: 1em;
+	}
+
+.pic {
+	float: left;
+	margin-right: 1em;
+	margin-bottom: .5em;
+	}
+
+.name {
+	float: top;
+	text-align: left;
+	font-size: 1.5em;
+	font-weight: bold;
+	}
+
+.bio {
+	float: top;
+	}
+
+.sig {
+	float: bottom;
+	font-size: .8em;
+	text-align: right;
+	margin-bottom: -1em;
+	}
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

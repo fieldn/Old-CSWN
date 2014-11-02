@@ -1,0 +1,163 @@
+
+body {  font-family: Calibri, Tahoma, Helvetica, Verdana, Arial, Sans-serif;
+	font-size: 1em;
+	background-color: #ffffff;
+	background-image:url('bg0_200.PNG');
+	background-repeat: repeat-y;
+	}
+
+a:link {color:#8badc6; text-decoration:underline; font-weight:bold}
+a:visited {color:#8badc6; text-decoration:underline; font-weight:bold}
+a:hover {color:#addfe8; text-decoration:underline; font-weight:bold}
+
+a.side:link {color:#ffffff; margin-bottom:1em;}
+a.side:visited {color:#ffffff; margin-bottom:1em;}
+a.side:hover {color:#dddddd; margin-bottom:1em;}
+
+a.contrast:link {color:#000000; text-decoration:underline; font-weight: none}
+a.contrast:visited {color:#000000; text-decoration:underline; font-weight: none}
+a.contrast:hover {color:#ffffff; text-decoration:underline; font-weight: none}
+
+div {
+	}
+
+#pagemainstripe {
+	align: center;
+	background-color: #9cbed7;
+	color: #000000;
+	font-size: 2em;
+	padding: 1em 2em 1em 2em;
+	margin-left: -10px;
+	margin-right: -10px;
+	}
+
+#linkside {
+	color: #000000;
+	font-size: 1.2em;
+	padding: 1em 2em 2em 2em;
+	margin-top: 50px;
+	width: 100px;
+	float: left;
+	}
+
+.linkbox {
+	margin-top: 30px;
+	margin-left: 0px;
+	padding: 0 2em 2em 2em;
+	color: #000000;
+	font-size: 1.2em;
+	font-weight: bold;
+	line-height: 1.5em;
+	float: left;
+	}
+
+#boxlinks {
+	margin-left: 5em;
+	}
+
+#boxback {
+	background-image:url('boxback1.PNG');
+	background-repeat: repeat-xy;
+	padding: 30px;
+	margin-left: 200px;
+	}
+
+#boxtitle {
+	color: #000000;
+	font-size: 2.5em;
+	font-weight: bold;
+	}
+
+
+.box {
+	padding: 0 2em 2em 2em;
+	align: center;
+	border: 3px solid #8badc6;
+	background-color: #ffffff;
+	color: #000000;
+	font-size: 1em;
+	font-weight: normal;
+	}
+
+.headline {
+	border-bottom: 2px solid #CCCCCC;
+	font-size: 2em;
+	font-weight: bold;
+	margin-top: 1em;
+	}
+
+.eventtitle, .subsectitle {
+	margin-top: .5em;
+	font-style: italic;
+	font-size: 1.2em;
+	}
+
+.eventbody, .subsecbody {
+	margin-left: 1em;
+	}
+
+.fieldheader, subseccaption {
+	font-size: .9em;
+	font-weight: bold;
+	}
+
+.biocontainer {
+	margin: 1em;
+	overflow: auto;
+	}
+
+.pic {
+	float: left;
+	margin-right: 1em;
+	margin-bottom: .5em;
+	}
+
+.pic img {
+	height:100px;
+	width:auto;
+}
+
+.name {
+	float: left;
+	text-align: left;
+	font-size: 1.5em;
+	font-weight: bold;
+	}
+
+.bio {
+	float: left;
+	}
+
+.sig {
+	float: bottom;
+	font-size: .8em;
+	text-align: right;
+	margin-bottom: -1em;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
